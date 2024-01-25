@@ -15,6 +15,12 @@ def dv_func(n1, n2) :
     retVal=n1 / n2
     return retVal
 
+
+def mulTwo_func(n1) :
+    retVal=n1*n1
+    return retVal
+
+
 ## 전역 변수부
 num1, num2, res = 100, 200, 0
 #int num1=100
@@ -34,3 +40,6 @@ print(num1,'*',num2,'=',res)
 
 res = dv_func(num1, num2)
 print(num1,'*',num2,'=',res)
+
+res = dv_func(num1)
+print(num1,'^=',res)
